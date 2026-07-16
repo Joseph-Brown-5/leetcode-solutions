@@ -47,3 +47,5 @@ class Solution(object):
 # a better solution which (imo) is not in the spirit of the question but it works
 
         return bin(int(a, 2) + int(b, 2))[2:]
+
+    # update for git
