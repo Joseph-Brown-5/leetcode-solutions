@@ -15,14 +15,15 @@ class Solution(object):
 
             if num != x[len(x) - count]:
                 return False
-            
+
             count += 1
         return True
-    
+
 # 2nd Solution: Time Complexity O(1)? Beats: 71.54%
 # this one is better but i don't know why its not higher
 # the time complexity changes depending on the variable i believe this is a leetcode thing
 # or i don't understand how variable choice would matter
+
 
 class Solution(object):
     def isPalindrome(self, x):
@@ -34,3 +35,4 @@ class Solution(object):
         if x == x[::-1]:
             return True
         return False
+        # AAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHH
