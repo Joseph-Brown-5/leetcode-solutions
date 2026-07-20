@@ -4,7 +4,7 @@
 name = input("Enter your full name: ")
 phone_number = "123-456-7890"
 
-# result = len(name)
+# result = len(name) #.len() finds the length of the given string
 # result = name.find(" ") #.find() finds the first occurance of the given string value
 # result = name.rfind("o") #.rfind() finds the last occurance of the given string value (will return -1 if no results)
 # name = name.capitalize() #.capitalize() will capitalize the first letter of the string
@@ -16,4 +16,4 @@ phone_number = "123-456-7890"
 # phone_number = phone_number.replace("-", " ") #.replace() will replace the first given string with the second given string
 
 
-print(name)
+print(help(str))
