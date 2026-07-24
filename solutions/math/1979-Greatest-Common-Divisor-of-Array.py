@@ -30,3 +30,6 @@ class Solution(object):
         while small != 0:
             large, small = small, large % small
         return large
+
+
+# ahhhhhhhhhhhhhhh
